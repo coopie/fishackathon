@@ -1,0 +1,17 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "saving all of the carp",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+
+  "author": "Sam Coope",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "express": "^4.13.4"
+  }
+}

@@ -6,7 +6,7 @@ var server = express();
 var PORT = 1234;
 var IPADDRESS = 'localhost';
 
-// server.use('/mandelbrot', express.static(__dirname + '/mandelbrot'));
+server.use('/resource', express.static(__dirname + '/resource'));
 
 server.get('/', function(request, response) {
 
